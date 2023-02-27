@@ -1,0 +1,11 @@
+@keyframes Move {
+
+0% {transform: translateY(0px);} 
+100% {transform: translateY(20px);} 
+
+}
+
+
+.photo {
+    animation: Move 3s infinite;
+}
